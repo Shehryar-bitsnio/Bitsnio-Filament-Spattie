@@ -1,8 +1,8 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions;
+namespace Bitsnio\FilamentSpatieRolesPermissions;
 
-use Althinect\FilamentSpatieRolesPermissions\Commands\Permission;
+use Bitsnio\FilamentSpatieRolesPermissions\Commands\Permission;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
+namespace Bitsnio\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource;
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource;
+use Bitsnio\FilamentSpatieRolesPermissions\Resources\PermissionResource;
+use Bitsnio\FilamentSpatieRolesPermissions\Resources\RoleResource;
 use Filament\Resources\Pages\CreateRecord;
 
 class CreatePermission extends CreateRecord

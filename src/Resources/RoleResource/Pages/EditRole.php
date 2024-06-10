@@ -1,8 +1,8 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages;
+namespace Bitsnio\FilamentSpatieRolesPermissions\Resources\RoleResource\Pages;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\RoleResource;
+use Bitsnio\FilamentSpatieRolesPermissions\Resources\RoleResource;
 use Filament\Actions\DeleteAction;
 use Filament\Actions\ViewAction;
 use Filament\Resources\Pages\EditRecord;

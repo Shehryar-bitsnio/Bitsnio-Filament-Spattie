@@ -1,9 +1,5 @@
 # Description
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/althinect/filament-spatie-roles-permissions.svg?style=flat-square)](https://packagist.org/packages/althinect/filament-spatie-roles-permissions)
-[![Total Downloads](https://img.shields.io/packagist/dt/althinect/filament-spatie-roles-permissions.svg?style=flat-square)](https://packagist.org/packages/althinect/filament-spatie-roles-permissions)
-![GitHub Actions](https://github.com/althinect/filament-spatie-roles-permissions/actions/workflows/main.yml/badge.svg)
-
 This plugin is built on top of [Spatie's Permission](https://spatie.be/docs/laravel-permission/v6/introduction) package. 
 
 Provides Resources for Roles and Permissions
@@ -30,7 +26,7 @@ php artisan vendor:publish --tag="filament-spatie-roles-permissions-config" --fo
 You can install the package via composer:
 
 ```bash
-composer require althinect/filament-spatie-roles-permissions
+composer require bitsnio/filament-spatie-roles-permissions
 ```
 
 Since the package depends on [Spatie's Permission](https://spatie.be/docs/laravel-permission/v5/introduction) package. You have to publish the migrations by running:
@@ -40,7 +36,7 @@ php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvid
 
 Add the plugin to the `AdminPanelProvider`
 ```php
-use Althinect\FilamentSpatieRolesPermissions\FilamentSpatieRolesPermissionsPlugin;
+use Bitsnio\FilamentSpatieRolesPermissions\FilamentSpatieRolesPermissionsPlugin;
 
 $panel
     ...
@@ -136,7 +132,7 @@ php artisan permissions:sync -COPY
 * Add the following trait to the User Model
 
 ```php
-use Althinect\FilamentSpatieRolesPermissions\Concerns\HasSuperAdmin;
+use Bitsnio\FilamentSpatieRolesPermissions\Concerns\HasSuperAdmin;
 
 class User extends Authenticatable{
 
@@ -192,7 +188,7 @@ public function team(): BelongsTo
 
 
 ```php
-use Althinect\FilamentSpatieRolesPermissions\Middleware\SyncSpatiePermissionsWithFilamentTenants;
+use Bitsnio\FilamentSpatieRolesPermissions\Middleware\SyncSpatiePermissionsWithFilamentTenants;
 
 $panel
     ...
@@ -228,7 +224,7 @@ If you discover any security related issues, please create an issue.
 
 -   [Tharinda Rodrigo](https://github.com/tharindarodrigo/)
 -   [Udam Liyanage](https://github.com/UdamLiyanage/)
--   [Contributors](https://github.com/Althinect/filament-spatie-roles-permissions/graphs/contributors)
+-   [Contributors](https://github.com/bitsnio/filament-spatie-roles-permissions/graphs/contributors)
 
 ## License
 

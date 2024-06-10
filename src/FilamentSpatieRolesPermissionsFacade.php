@@ -1,6 +1,6 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions;
+namespace Bitsnio\FilamentSpatieRolesPermissions;
 
 use Illuminate\Support\Facades\Facade;
 

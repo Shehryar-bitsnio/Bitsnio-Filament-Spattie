@@ -1,6 +1,6 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Middleware;
+namespace Bitsnio\FilamentSpatieRolesPermissions\Middleware;
 
 use Closure;
 use Filament\Facades\Filament;

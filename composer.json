@@ -1,17 +1,16 @@
 {
-    "name": "althinect/filament-spatie-roles-permissions",
+    "name": "bitsnio/filament-spatie-roles-permissions",
     "description": "",
     "keywords": [
-        "althinect",
+        "bitsnio",
         "filament-spatie-roles-permissions"
     ],
-    "homepage": "https://github.com/althinect/filament-spatie-roles-permissions",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Tharinda Rodrigo",
-            "email": "tharindarodrigo@gmail.com",
+            "name": "Shehryar Azeem",
+            "email": "shehryar.azeem@bitsnio.com",
             "role": "Developer"
         }
     ],
@@ -28,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Althinect\\FilamentSpatieRolesPermissions\\": "src"
+            "Bitsnio\\FilamentSpatieRolesPermissions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Althinect\\FilamentSpatieRolesPermissions\\Tests\\": "tests"
+            "Bitsnio\\FilamentSpatieRolesPermissions\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Althinect\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsServiceProvider"
+                "Bitsnio\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsServiceProvider"
             ],
             "aliases": {
-                "FilamentSpatieRolesPermissions": "Althinect\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsFacade"
+                "FilamentSpatieRolesPermissions": "Bitsnio\\FilamentSpatieRolesPermissions\\FilamentSpatieRolesPermissionsFacade"
             }
         }
     },

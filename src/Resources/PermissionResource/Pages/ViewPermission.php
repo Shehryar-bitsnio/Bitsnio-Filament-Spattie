@@ -1,8 +1,8 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
+namespace Bitsnio\FilamentSpatieRolesPermissions\Resources\PermissionResource\Pages;
 
-use Althinect\FilamentSpatieRolesPermissions\Resources\PermissionResource;
+use Bitsnio\FilamentSpatieRolesPermissions\Resources\PermissionResource;
 use Filament\Actions\EditAction;
 use Filament\Resources\Pages\ViewRecord;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions;
+namespace Bitsnio\FilamentSpatieRolesPermissions;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;

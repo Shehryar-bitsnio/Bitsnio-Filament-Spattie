@@ -1,6 +1,6 @@
 <?php
 
-namespace Althinect\FilamentSpatieRolesPermissions\Concerns;
+namespace Bitsnio\FilamentSpatieRolesPermissions\Concerns;
 
 use Spatie\Permission\Traits\HasRoles;
 
